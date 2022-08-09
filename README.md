@@ -11,7 +11,7 @@ Continued development
 Author
 Links
 Solution URL:https://github.com/nwakego98/order-summary-card.git
-Live Site URL: 
+Live Site URL: https://magenta-quokka-f369b2.netlify.app/
 Built with
 Semantic HTML5 markup
 CSS custom properties
