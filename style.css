@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600;700&family=Outfit:wght@300;400;600;700&family=Poppins:wght@200;300;400;500;700;800&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color:hsl(225, 100%, 94%) ;
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 50%;
+}
+
+.container{
+box-shadow: 1px 15px 10px #C9D3F8;
+border-radius: 15px;
+background-color: #ffff;
+font-family:'Red Hat Display' , sans-serif;
+max-width: 380px;
+max-height: 600px;
+padding-bottom: 40px;
+margin-bottom: 20px;
+}
+
+img{
+    max-width: 380px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.text-element{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 22px;
+    color:hsl(223, 47%, 23%) ;
+    margin: 30px 0px 0px 0px;
+}
+
+p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    margin: 15px 20px; 
+    line-height: 1.5;
+}
+
+.annual-plan{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-bottom:25px ;
+    padding: 10px 15px;
+}
+
+.music-icon{
+    padding: 10px;
+    margin-right: 10px;
+    width: 50px;
+}
+
+.annual-plan-element{
+    text-align: center;
+    padding-right: 60px;
+}
+
+
+.annual-price{
+    color:hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.change-link{
+    align-self: center;
+    color:  hsl(245, 75%, 52%);
+    font-weight: 900;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.change-link:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #766CF1;
+}
+
+.change-link:active {
+    text-decoration: none;
+    color: #D183FC;
+}
+
+button{
+    text-align: center;
+    background-color:  hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 15px 10px #DCD8FA;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 15px;
+    display: block;
+    margin: 10px auto;
+    min-width: 80%;
+}
+
+button:hover {
+    background-color: #766CF1;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #D183FC;
+}
+
+a.cancel-link {
+    display: flex;
+    justify-content: center;
+    margin-top:5px;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    font-weight: 900;
+}
+
+a.cancel-link:hover {
+    cursor: pointer;
+    color:hsl(223, 47%, 23%) ;
+}
+
+a.cancel-link:active {
+    color: #D183FC;
+}
+
+footer {
+    font-size: 11px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
+
+footer a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media(max-width:375px) {
+    main{
+        width: 327px;
+        height: 544px;
+    }
+
+    .text-box{
+        height: 100%;
+    }
+}
